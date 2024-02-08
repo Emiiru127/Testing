@@ -1,0 +1,16 @@
+#VNContainer{   
+    
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    /*background-color: black;*/
+}

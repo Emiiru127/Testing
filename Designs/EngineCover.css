@@ -1,0 +1,46 @@
+#cover{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    
+}
+
+#coverButton{
+
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 1px 0px white;
+    background-color: inherit;
+    outline: line;
+    border: 10px;
+    padding: 0px;
+
+}
+
+.coverButton:hover{
+
+    color: red;
+    cursor: pointer;
+    
+}

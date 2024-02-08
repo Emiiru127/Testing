@@ -1,0 +1,68 @@
+@keyframes characterHideAnimation{
+
+    from{opacity: 1;}
+    to{opacity: 0;}
+
+}
+
+@keyframes characterShowAnimation{
+
+    from{opacity: 0;}
+    to{opacity: 1;}
+
+}
+
+
+@keyframes spinX {
+    from {
+        transform:rotateX(0deg);
+    }
+    to {
+        transform:rotateX(360deg);
+    }
+}
+
+@keyframes spinY {
+    from {
+        transform:rotateY(0deg);
+    }
+    to {
+        transform:rotateY(360deg);
+    }
+}
+
+@keyframes spinZ {
+    from {
+        transform:rotateZ(0deg);
+    }
+    to {
+        transform:rotateZ(360deg);
+    }
+}
+
+@keyframes flippedSpinX {
+    from {
+        transform:rotateX(360deg);
+    }
+    to {
+        transform:rotateX(0deg);
+    }
+}
+
+@keyframes flippedSpinY {
+    from {
+        transform:rotateY(360deg);
+    }
+    to {
+        transform:rotateY(0deg);
+    }
+}
+
+@keyframes flippedSpinZ {
+    from {
+        transform:rotateZ(360deg);
+    }
+    to {
+        transform:rotateZ(0deg);
+    }
+}

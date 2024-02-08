@@ -1,0 +1,153 @@
+.dialoguePrinterDisplay{
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dialoguePrinter{
+
+    position: absolute;
+    height: 35%;
+    width: 70%;
+    top: 60%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dialoguePrinterNameBox{
+
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: inline-block;
+    position: absolute;
+    height: 15%;
+    width: fit-content;
+    min-width: 10%;
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+    padding-left: 1%;
+    padding-right: 0.5%;
+    margin-left: auto; 
+
+    
+    
+}
+
+.dialoguePrinterNameBoxText{
+
+    position: relative;
+    block-size:auto;
+    width: max-content;
+    height: 70%;
+    top: 15%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1vh;
+
+}
+
+.dialoguePrinterTextBox{
+
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    top: 20%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+
+}
+
+.dialoguePrinterTextBoxText{
+
+    position: absolute;
+    height: 93%;
+    width: 97%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vh;
+    font-weight: normal;
+    text-align: justify;
+    word-wrap: break-word;
+
+}
+
+.dialoguePrinterRequester{
+
+    background-size: contain;
+    background-repeat: no-repeat; 
+    position: absolute;
+    height: 5%;
+    width: 4%;;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: -1%;
+    
+
+}
+
+
+#VNContainer{   
+    
+    position: absolute;
+    height: 720px;
+    width: 1280px;
+
+    height: 76.8409818569904vh;
+    width: 66.66666666666667vw;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    /*background-color: black;*/
+}

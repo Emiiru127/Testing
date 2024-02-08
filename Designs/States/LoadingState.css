@@ -1,0 +1,38 @@
+#loadingState{
+
+    position: absolute;
+    background-image: url();
+    background-repeat: no repeat;
+	background-position:center;
+	background-size: cover;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    display: block;
+
+}
+
+#loadingTitle{
+
+    position: absolute;
+    background-color: transparent; 
+    height: fit-content;
+    width: fit-content;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+
+}

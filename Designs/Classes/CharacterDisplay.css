@@ -1,0 +1,87 @@
+#characterPanel{
+
+    position: relative;
+    width: 20%;
+    height: 75%;
+    background-color: gray;
+
+}
+
+#character{
+
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    image-rendering: pixelated;
+
+}
+
+#characterDisplay{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: crimson;
+
+}
+
+
+.characterDisplay{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*height: 720px;
+    width: 1280px;*/
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: crimson;
+    column-gap: 2.5%;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    padding-left: 2.5%;  
+    padding-right: 2.5%;   
+
+}
+
+.characterPanel{
+
+    position: relative;
+    width: 25%;
+    height: 90%;
+    background-color: gray;
+    opacity: 0;
+
+}
+
+.character{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 1;
+
+}

@@ -1,0 +1,98 @@
+#menuUI{
+
+    position: relative;
+    height: inherit;
+    width: inherit;
+
+}
+
+#menuUIContainer{
+
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: linear-gradient(pink, white); 
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+
+}
+
+#menuUITable{
+
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.menuUItr{
+
+    position: relative;
+    padding-bottom: auto;
+    
+
+}
+
+.menuUIButton{
+
+    position: absolute;
+
+    font-family: 'DotGothic16';
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-shadow: 2px 0px pink;
+    border: 0.25vh solid black;
+    border-radius: 1vh;
+    text-align: center;
+
+    cursor: pointer;
+
+    height: 50%;
+    width: 70%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+.menuUIButton{
+
+    background-color: white;
+
+}
+
+.menuUIButton:hover{
+
+    color: red;
+    cursor: pointer;
+    
+}
+
+.menuUIButton:active{
+
+    background-color: gray;
+    
+}

@@ -1,0 +1,43 @@
+#videoPlayerUI{
+
+    position: relative;
+    height: inherit;
+    width: inherit;
+
+}
+
+#videoPlayerUIContainer{
+
+    position: absolute;
+    height: 90%;
+    width: 85%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: linear-gradient(pink, white); 
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+
+}
+
+#videoPlayer{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}

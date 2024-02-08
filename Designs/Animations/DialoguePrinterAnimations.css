@@ -1,0 +1,21 @@
+@keyframes dialoguePrinterHideAnimation{
+
+    from{opacity: 1;}
+    to{opacity: 0;}
+
+}
+
+@keyframes dialoguePrinterShowAnimation{
+
+    from{opacity: 0;}
+    to{opacity: 1;}
+
+}
+
+@keyframes dialoguePrinterRequesterAnimation{
+
+    0%   {margin-bottom: 0.75%;}
+    50%  {margin-bottom: 1.5%;}
+    100% {margin-bottom: 0.75%;}
+
+}

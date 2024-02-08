@@ -1,0 +1,90 @@
+@import url("States/States.css");
+@import url("Fonts/Fonts.css");
+@import url("Animations/Animations.css");
+@import url("Classes/Classes.css");
+@import url("Utilities/Utilities.css");
+@import url("UI/UI.css");
+@import url("Extra/Extra.css");
+
+#errorState{
+
+    position: absolute;
+    background-image: url();
+    background-repeat: no repeat;
+	background-position: center;
+	background-size: cover;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    display: block;
+
+}
+
+#errorTitle{
+
+    position: absolute;
+    background-color: transparent; 
+    height: fit-content;
+    width: fit-content;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: red;
+
+}
+
+.stateContent{
+
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.gameButton{
+
+    position: relative;
+    text-align: left;
+    width: fit-content;
+    height: 50px;
+    font-family: 'DotGothic16';
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 1px 0px white;
+    background-color: inherit;
+    outline: none;
+    border: 0px;
+    padding: 0px;
+
+}
+
+.gameButton:hover{
+
+    color: red;
+    cursor: pointer;
+    
+}
+
+#VNEngine{
+
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+   
+}

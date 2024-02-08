@@ -1,0 +1,39 @@
+#hudMenuBtn{
+
+    position: absolute;
+    height: 6vh;
+    width: fit-content;
+    font-family: 'DotGothic16';
+    text-shadow: 2px 0px pink;
+    border: 0.25vh solid black;
+    padding: 5px;
+    border-radius: 0.5vh;
+    margin-top: 1%;
+    margin-left: 1.5%; 
+    font-size: 3vh;
+    opacity: 1;
+    cursor: pointer;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+
+}
+
+.hudMenuBtn{
+
+    background-color: white;
+    
+}
+
+.hudMenuBtn:hover{
+
+    color: red;
+    cursor: pointer;
+    
+}
+
+.hudMenuBtn:active{
+
+    background-color: gray;
+    
+}

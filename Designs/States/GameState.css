@@ -1,0 +1,10 @@
+#gameState{
+    
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+    opacity: 1;
+    display: none;
+
+}
