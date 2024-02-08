@@ -197,7 +197,7 @@ visualNovelEngine.attachScriptPhase2();
 
     //Testing Dialogue Printer...
 
-/*
+
     {
 
         
@@ -292,8 +292,8 @@ visualNovelEngine.attachScriptPhase2();
         
 
     }
-*/
 
+/*
         let dialoguePrinterTest = () => {
 
             setTimeout(() => {
@@ -318,7 +318,7 @@ visualNovelEngine.attachScriptPhase2();
             }, 10000);
 
         }
-
+*/
         //dialoguePrinterTest();
 /*
         let test2 = setInterval(() => {
