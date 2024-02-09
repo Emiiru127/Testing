@@ -32,6 +32,7 @@ import { visualNovelEngine } from "../VNInitialScript.js";
     (stateManager.getStateButton("menuState", "menuStartBtn")).onclick = () => {
         
         stateManager.setCurrentState("gameState");
+        testing();
 
     };
 
@@ -152,7 +153,7 @@ visualNovelEngine.attachScriptPhase2();
 
 // TESTING UNITS
 
-{
+
 
     let gameManager = visualNovelEngine.getHandler().getGameManager();
 
@@ -198,7 +199,7 @@ visualNovelEngine.attachScriptPhase2();
     //Testing Dialogue Printer...
 
 
-    {
+    function testing(){
 
         
 
@@ -332,7 +333,7 @@ visualNovelEngine.attachScriptPhase2();
 
 
     
-}
+
 
 
 
