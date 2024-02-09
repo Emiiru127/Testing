@@ -35,14 +35,30 @@ import { visualNovelEngine } from "../VNInitialScript.js";
         testing();
 
     };
+    (stateManager.getStateButton("menuState", "menuStartBtn")).ontouchstart = () => {
+        
+        stateManager.setCurrentState("gameState");
+        testing();
+
+    };
 
     (stateManager.getStateButton("menuState", "menuSettingsBtn")).onclick = () => {
 
         stateManager.setCurrentState("settingsState");
         
     };
+    (stateManager.getStateButton("menuState", "menuSettingsBtn")).ontouchstart = () => {
+
+        stateManager.setCurrentState("settingsState");
+        
+    };
 
     (stateManager.getStateButton("menuState", "menuCreditsBtn")).onclick = () => {
+
+        stateManager.setCurrentState("creditsState");
+
+    };
+    (stateManager.getStateButton("menuState", "menuCreditsBtn")).ontouchstart = () => {
 
         stateManager.setCurrentState("creditsState");
 
@@ -54,9 +70,19 @@ import { visualNovelEngine } from "../VNInitialScript.js";
         stateManager.setCurrentState("menuState");
 
     };
+    (stateManager.getStateButton("settingsState", "settingsBackBtn")).ontouchstart = () => {
+
+        stateManager.setCurrentState("menuState");
+
+    };
 
     //Credits State
     (stateManager.getStateButton("creditsState", "creditsBackBtn")).onclick = () => {
+
+        stateManager.setCurrentState("menuState");
+
+    };
+    (stateManager.getStateButton("creditsState", "creditsBackBtn")).ontouchstart = () => {
 
         stateManager.setCurrentState("menuState");
 
@@ -83,18 +109,41 @@ import { visualNovelEngine } from "../VNInitialScript.js";
         layerDisplay.addElementOnLayer(0, menu);
 
     }
+    hudMenuBtn.ontouchstart = () => {
+
+        layerDisplay.addElementOnLayer(0, menu);
+
+    }
 
     menuResumeBtn.onclick = () => {
 
         layerDisplay.removeElementOnLayer(0, menu);
 
     }
+    menuResumeBtn.ontouchstart = () => {
+
+        layerDisplay.removeElementOnLayer(0, menu);
+
+    }
+
     menuSettingsBtn.onclick = () => {
 
         layerDisplay.addElementOnLayer(0, settings);
 
     }
+    menuSettingsBtn.ontouchstart = () => {
+
+        layerDisplay.addElementOnLayer(0, settings);
+
+    }
+
     menuMainMenuBtn.onclick = () => {
+
+        layerDisplay.removeElementOnLayer(0, menu);
+        stateManager.setCurrentState("menuState");
+
+    }
+    menuMainMenuBtn.ontouchstart = () => {
 
         layerDisplay.removeElementOnLayer(0, menu);
         stateManager.setCurrentState("menuState");
@@ -102,6 +151,11 @@ import { visualNovelEngine } from "../VNInitialScript.js";
     }
 
     settingsUIBackBtn.onclick = () => {
+
+        layerDisplay.removeElementOnLayer(0, settings);
+
+    }
+    settingsUIBackBtn.ontouchstart = () => {
 
         layerDisplay.removeElementOnLayer(0, settings);
 

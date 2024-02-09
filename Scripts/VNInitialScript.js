@@ -34,3 +34,12 @@ btnStartEngine.onclick = () => {
     
 }
 
+btnStartEngine.ontouchstart = () => {
+
+    //System
+    addScript("Scripts/EngineManager.js", true);
+    visualNovelEngine = new VisualNovelEngine("VNMainFrame");
+    visualNovelEngine.initialize();
+    
+}
+
