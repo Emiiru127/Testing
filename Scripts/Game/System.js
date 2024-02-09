@@ -22,7 +22,7 @@ import { visualNovelEngine } from "../VNInitialScript.js";
 }
 
 // SYSTEM DEFAULT EVENTS
-
+var testflag = true;
 {
 
     let stateManager = visualNovelEngine.getHandler().getStateManager();
@@ -32,14 +32,27 @@ import { visualNovelEngine } from "../VNInitialScript.js";
     (stateManager.getStateButton("menuState", "menuStartBtn")).onclick = () => {
         
         stateManager.setCurrentState("gameState");
-        testing();
+        
+        if(testflag){
+
+            testing();
+            testflag = false;
+
+        }
+
 
     };
     (stateManager.getStateButton("menuState", "menuStartBtn")).ontouchstart = () => {
         
         stateManager.setCurrentState("gameState");
-        testing();
 
+        if(testflag){
+
+            testing();
+            testflag = false;
+
+        }
+        
     };
 
     (stateManager.getStateButton("menuState", "menuSettingsBtn")).onclick = () => {
